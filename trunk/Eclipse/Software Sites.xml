@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookmarks>
+   <site url="http://andrei.gmxhome.de/eclipse/" selected="false" name="Andrey Loskutov"/>
+   <site url="https://dl-ssl.google.com/android/eclipse/" selected="true" name="Android Development Tools"/>
+   <site url="http://update.eclemma.org/" selected="true" name="EclEmma"/>
+   <site url="http://eclipse-color-theme.github.com/update" selected="true" name="Eclipse Color Theme"/>
+   <site url="http://www.eclipse.org/pde/samples/site.xml" selected="true" name="Eclipse SDK Samples"/>
+   <site url="http://download.gna.org/eclox/update/" selected="true" name="Eclox"/>
+   <site url="http://e-p-i-c.sourceforge.net/updates/testing" selected="true" name="EPIC - Perl Editor and IDE for Eclipse"/>
+   <site url="http://gnuarmeclipse.sourceforge.net/updates" selected="true" name="GNU ARM Eclipse Plug-ins"/>
+   <site url="http://gnuarmeclipse.sourceforge.net/updates-test" selected="true" name="GNU ARM Eclipse Plug-ins - Testing"/>
+   <site url="http://jd.benow.ca/jd-eclipse/update" selected="true" name="JD-Eclipse"/>
+   <site url="http://metriculator.ideadapt.net" selected="false" name="Metriculator"/>
+   <site url="http://www.stateofflow.com/UpdateSite" selected="true" name="State of Flow"/>
+   <site url="http://subclipse.tigris.org/update_1.10.x" selected="true" name="Subclipse 1.10.x"/>
+</bookmarks>
