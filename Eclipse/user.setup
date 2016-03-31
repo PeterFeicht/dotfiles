@@ -1464,6 +1464,14 @@
           key="/instance/org.eclipse.ui/SHOW_MEMORY_MONITOR">
         <value>ignore</value>
       </detail>
+      <detail
+          key="/instance/org.eclipse.jdt.ui/stickyOccurrences">
+        <value>record</value>
+      </detail>
+      <detail
+          key="/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.emptyStatement">
+        <value>record</value>
+      </detail>
     </annotation>
     <setupTask
         xsi:type="setup:CompoundTask"
@@ -2447,6 +2455,10 @@
       <setupTask
           xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.autoboxing"
+          value="ignore"/>
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.emptyStatement"
           value="info"/>
       <setupTask
           xsi:type="setup:PreferenceTask"
@@ -2539,7 +2551,7 @@
       <setupTask
           xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.reportMethodCanBePotentiallyStatic"
-          value="info"/>
+          value="ignore"/>
       <setupTask
           xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.reportMethodCanBeStatic"
@@ -2563,7 +2575,7 @@
       <setupTask
           xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.undocumentedEmptyBlock"
-          value="info"/>
+          value="ignore"/>
       <setupTask
           xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.unnecessaryElse"
@@ -2728,6 +2740,10 @@
           xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.jdt.ui/semanticHighlighting.typeParameter.enabled"
           value="true"/>
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.jdt.ui/stickyOccurrences"
+          value="false"/>
     </setupTask>
     <setupTask
         xsi:type="setup:CompoundTask"
