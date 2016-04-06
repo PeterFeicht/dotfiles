@@ -1,0 +1,30 @@
+{
+	"always_prompt_for_file_reload": true,
+	"animation_enabled": false,
+	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+	"default_line_ending": "unix",
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"ActionScript",
+		"AppleScript",
+		"D",
+		"Erlang",
+		"Haskell",
+		"JavaScript",
+		"Lisp",
+		"Markdown",
+		"Objective-C",
+		"OCaml",
+		"R",
+		"SublimeREPL",
+		"Textile",
+		"Vintage"
+	],
+	"rulers":
+	[
+		80,
+		120
+	],
+	"scroll_past_end": true
+}
