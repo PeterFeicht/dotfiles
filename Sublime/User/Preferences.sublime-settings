@@ -2,7 +2,9 @@
 	"always_prompt_for_file_reload": true,
 	"animation_enabled": false,
 	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+	"caret_style": "blink",
 	"default_line_ending": "unix",
+	"drag_text": false,
 	"hot_exit": false,
 	"ignored_packages":
 	[
@@ -26,5 +28,8 @@
 		80,
 		120
 	],
-	"scroll_past_end": true
+	"scroll_past_end": false,
+	"show_encoding": true,
+	"show_full_path": false,
+	"show_line_endings": true,
 }
