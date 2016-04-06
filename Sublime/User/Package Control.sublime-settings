@@ -1,0 +1,36 @@
+{
+	"auto_upgrade_frequency": 1,
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ApacheConf.tmLanguage",
+		"AutoFileName",
+		"BracketHighlighter",
+		"Coco R Syntax Highlighting",
+		"CodeFormatter",
+		"Color Highlighter",
+		"CSS3",
+		"DoxyDoxygen",
+		"Git",
+		"GitGutter",
+		"Gitignore",
+		"GitSyntaxes",
+		"Gnuplot",
+		"Gradle_Language",
+		"HTML5",
+		"JavaScript Ultimate",
+		"jQuery",
+		"Markdown Extended",
+		"MIPS Syntax",
+		"Monokai Extended",
+		"Package Control",
+		"SublimeREPL",
+		"Sync View Scroll",
+		"Theme - Soda",
+		"VHDL",
+		"x86 and x86_64 Assembly"
+	]
+}
