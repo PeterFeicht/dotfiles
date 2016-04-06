@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_frequency": 1,
+	"auto_upgrade_frequency": 6,
 	"bootstrapped": true,
 	"in_process_packages":
 	[

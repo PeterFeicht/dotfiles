@@ -1,0 +1,21 @@
+{
+	// Default tabs size in documentation block (last value is repeated if needed).
+	// You can use [ 0 ] to treat tabs as spaces (and disable alignment)
+	// CANNOT BE EMPTY.
+	//
+	// example with value [ 12, 6, 8, 8, 8, 8 ]
+	//    /**
+	//     * @param[in]  a     { parameter_description }
+	//     * 123456789012      12345678...and continue because there is no more tab
+	//     *             123456
+	//     */
+	"preferred_tabs_sizes": [ 12, 6, 8, 8, 8, 8 ],
+
+	// Styles for new comments (you should only activate one per language, first is best)
+	"preferred_comments_styles": [
+		[
+			"/**",
+			" *"
+		]
+	]
+}
