@@ -1,10 +1,11 @@
 {
 	"always_prompt_for_file_reload": true,
 	"animation_enabled": false,
-	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
 	"caret_style": "blink",
+	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
 	"default_line_ending": "unix",
 	"drag_text": false,
+	"highlight_line": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
@@ -29,7 +30,9 @@
 		120
 	],
 	"scroll_past_end": false,
+	"scroll_speed": 0.0,
 	"show_encoding": true,
 	"show_full_path": false,
 	"show_line_endings": true,
+	"trim_automatic_white_space": false
 }
