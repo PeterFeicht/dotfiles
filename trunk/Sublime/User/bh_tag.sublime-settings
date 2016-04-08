@@ -1,0 +1,8 @@
+{
+	// Determine which style of tag-matching to use in which syntax
+    "tag_mode": {
+        "xhtml": [],
+        "html": [],
+        "cfml": []
+    }
+}
