@@ -7,7 +7,7 @@
 	"drag_text": false,
 	"highlight_line": true,
 	"hot_exit": false,
-    "word_wrap": false,
+	"word_wrap": false,
 	"ignored_packages":
 	[
 		"ActionScript",
