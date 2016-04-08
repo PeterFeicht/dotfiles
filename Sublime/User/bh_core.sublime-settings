@@ -4,6 +4,6 @@
 	// Disable gutter icons when doing multi-select
 	"no_multi_select_icons": true,
 
-    // Character threshold to search
-    "search_threshold": 15000
+	// Character threshold to search
+	"search_threshold": 15000
 }
