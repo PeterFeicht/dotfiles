@@ -2,5 +2,8 @@
 	// Bracket Highlighter
 	
 	// Disable gutter icons when doing multi-select
-	"no_multi_select_icons": true
+	"no_multi_select_icons": true,
+
+    // Ignore threshold
+    "ignore_threshold": true
 }
