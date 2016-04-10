@@ -5,7 +5,7 @@
 
 	// Focus Change mode evaluates changes every time a view gets the focus
 	// Set false to disable evaluation when changing views
-	"focus_change_mode": false,
+	"focus_change_mode": true,
 
 	// Determines whether GitGutter will show informations in the status bar
 	// Set "none" to hide these informations
