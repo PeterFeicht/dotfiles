@@ -21,7 +21,7 @@
 <setting id="org.eclipse.cdt.core.formatter.brace_position_for_block" value="end_of_line"/>
 <setting id="org.eclipse.cdt.core.formatter.brace_position_for_block_in_case" value="end_of_line"/>
 <setting id="org.eclipse.cdt.core.formatter.brace_position_for_method_declaration" value="end_of_line"/>
-<setting id="org.eclipse.cdt.core.formatter.brace_position_for_namespace_declaration" value="next_line"/>
+<setting id="org.eclipse.cdt.core.formatter.brace_position_for_namespace_declaration" value="end_of_line"/>
 <setting id="org.eclipse.cdt.core.formatter.brace_position_for_switch" value="end_of_line"/>
 <setting id="org.eclipse.cdt.core.formatter.brace_position_for_type_declaration" value="next_line"/>
 <setting id="org.eclipse.cdt.core.formatter.comment.min_distance_between_code_and_line_comment" value="1"/>
