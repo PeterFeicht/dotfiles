@@ -1500,6 +1500,22 @@
           key="/instance/org.eclipse.ui.workbench/resourcetypes">
         <value>ignore</value>
       </detail>
+      <detail
+          key="/instance/org.tigris.subversion.subclipse.ui/pref_merge_use_external">
+        <value>ignore</value>
+      </detail>
+      <detail
+          key="/instance/org.tigris.subversion.subclipse.ui/pref_merge_program_location">
+        <value>ignore</value>
+      </detail>
+      <detail
+          key="/instance/org.tigris.subversion.subclipse.ui/pref_merge_program_parameters">
+        <value>ignore</value>
+      </detail>
+      <detail
+          key="/instance/org.eclipse.cdt.ui/editor_folding_default_headers">
+        <value>record</value>
+      </detail>
     </annotation>
     <setupTask
         xsi:type="setup:CompoundTask"
@@ -2304,6 +2320,10 @@
           xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.cdt.ui/content_assist_autoactivation_delay"
           value="0"/>
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.cdt.ui/editor_folding_default_headers"
+          value="false"/>
       <setupTask
           xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.cdt.ui/editor_folding_preprocessor_enabled"
