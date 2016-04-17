@@ -1,16 +1,23 @@
 {
+	"Seti_SB_bright": true,
+	"Seti_orange_button": true,
+	"Seti_panel_nrml": true,
+	"Seti_tabs_small": true,
 	"always_prompt_for_file_reload": true,
 	"animation_enabled": false,
+	"bold_folder_labels": false,
 	"caret_style": "blink",
 	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
 	"default_line_ending": "unix",
 	"drag_text": false,
 	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
 		"ActionScript",
 		"AppleScript",
+		"ApplySyntax",
 		"D",
 		"Erlang",
 		"Haskell",
@@ -21,9 +28,16 @@
 		"OCaml",
 		"R",
 		"SublimeREPL",
+		"Tabright",
 		"Textile",
 		"Vintage"
 	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"numix_folder_icons": true,
 	"rulers":
 	[
 		80,
@@ -34,6 +48,8 @@
 	"show_encoding": true,
 	"show_full_path": false,
 	"show_line_endings": true,
+	"sidebar_tree_medium": true,
+	"tabs_small": true,
 	"trim_automatic_white_space": false,
 	"word_wrap": false
 }
