@@ -7,7 +7,8 @@
 	"animation_enabled": false,
 	"bold_folder_labels": false,
 	"caret_style": "blink",
-	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+	"close_windows_when_empty": false,
+	"color_scheme": "Packages/Monokai Extended/Monokai Extended Light.tmTheme",
 	"default_line_ending": "unix",
 	"drag_text": false,
 	"highlight_line": true,
@@ -27,7 +28,6 @@
 		"Objective-C",
 		"OCaml",
 		"R",
-		"Tabright",
 		"Textile",
 		"Vintage"
 	],
