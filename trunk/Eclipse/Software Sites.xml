@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bookmarks>
-   <site url="http://andrei.gmxhome.de/eclipse/" selected="false" name="Andrey Loskutov"/>
+   <site url="http://andrei.gmxhome.de/eclipse" selected="true" name="Bytecode Outline"/>
    <site url="http://dl.bintray.com/jknack/antlr4ide" selected="true" name="ANTLR 4 IDE"/>
-   <site url="http://cppcheclipse.eclipselabs.org.codespot.com/svn/update/" selected="true" name="cppchecklipse"/>
+   <site url="http://download.eclipse.org/buildship/updates/e45/releases/1.0" selected="true" name="Buildship"/>
+   <site url="http://download.codetrails.com/updates/connect/stable/" selected="true" name="Codetrails Connect Stable Update Site"/>
+   <site url="https://dl.bintray.com/cppcheclipse/p2/updates/" selected="true" name="cppchecklipse"/>
    <site url="http://update.eclemma.org/" selected="true" name="EclEmma"/>
    <site url="http://www.eclipse.org/pde/samples/site.xml" selected="true" name="Eclipse SDK Samples"/>
    <site url="http://download.gna.org/eclox/update/" selected="true" name="Eclox"/>
    <site url="http://feichti.net/eclipseplugins" selected="true" name="feichti.net"/>
-   <site url="http://findbugs.cs.umd.edu/eclipse" selected="true" name="FindBugs"/>
+   <site url="http://findbugs.cs.umd.edu/eclipse/" selected="true" name="FindBugs"/>
    <site url="http://gnuarmeclipse.sourceforge.net/updates" selected="true" name="GNU ARM Eclipse Plug-ins"/>
    <site url="http://gnuarmeclipse.sourceforge.net/updates-test" selected="true" name="GNU ARM Eclipse Plug-ins - Testing"/>
+   <site url="http://eclipse.pitest.org/release/" selected="true" name="Pitclipse"/>
    <site url="http://www.stateofflow.com/UpdateSite" selected="true" name="State of Flow"/>
    <site url="http://subclipse.tigris.org/update_1.12.x" selected="true" name="Subclipse 1.12.x"/>
+   <site url="http://download.eclipse.org/windowbuilder/WB/integration/4.5/" selected="true" name="WindowBuilder"/>
    <site url="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/" selected="true" name="Xtext All In One - Releases"/>
 </bookmarks>
