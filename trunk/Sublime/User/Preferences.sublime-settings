@@ -13,7 +13,7 @@
 	"drag_text": false,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"hot_exit": false,
+	"hot_exit": true,
 	"ignored_packages":
 	[
 		"ActionScript",
@@ -28,6 +28,7 @@
 		"Objective-C",
 		"OCaml",
 		"R",
+		"SideBarEnhancements",
 		"Textile",
 		"Vintage"
 	],
@@ -37,6 +38,7 @@
 		"draw_active"
 	],
 	"numix_folder_icons": true,
+	"preview_on_click": false,
 	"rulers":
 	[
 		80,
