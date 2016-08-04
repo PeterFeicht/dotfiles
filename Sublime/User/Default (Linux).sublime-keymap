@@ -1,3 +1,19 @@
 [
-	{ "keys": ["ctrl+alt+c"], "command": "close_workspace" }
+	{ "keys": ["ctrl+alt+c"], "command": "close_workspace" },
+	
+	/*{ "keys": ["ctrl+alt+a"],
+		"command": "clang_format",
+		"context": [ {"key": "selector", "operator": "equal", "operand": "source.c++"} ],
+		"args": { "whole_buffer": true }
+	},
+	{ "keys": ["ctrl+alt+a"],
+		"command": "clang_format",
+		"context": [ {"key": "selector", "operator": "equal", "operand": "source.c"} ],
+		"args": { "whole_buffer": true }
+	},
+	{ "keys": ["ctrl+alt+a"],
+		"command": "clang_format",
+		"context": [ {"key": "selector", "operator": "equal", "operand": "source.js"} ],
+		"args": { "whole_buffer": true }
+	}*/
 ]
