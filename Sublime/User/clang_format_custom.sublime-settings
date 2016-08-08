@@ -147,7 +147,7 @@
     // bool BeforeCatch: Wrap before catch.
     // bool BeforeElse: Wrap before else.
     // bool IndentBraces: Indent the wrapped braces themselves.
-    "BraceWrapping": "{AfterClass: true, AfterEnum: true, AfterObjCDeclaration: true, AfterStruct: true, AfterUnion: true}",
+    "BraceWrapping": "{AfterClass: true, AfterEnum: true, AfterNamespace: true, AfterObjCDeclaration: true, AfterStruct: true, AfterUnion: true}",
 
     // Break after each annotation on a field in Java files.
 // 4.0: "BreakAfterJavaFieldAnnotations": true,
@@ -308,7 +308,7 @@
     // None: Don’t indent in namespaces.
     // Inner: Indent only in inner namespaces (nested in other namespaces).    
     // All: Indent in all namespaces.
-    "NamespaceIndentation": "None",
+    "NamespaceIndentation": "Inner",
 
     // The number of characters to use for indentation of ObjC blocks.
 //  "ObjCBlockIndentWidth": 4,
@@ -377,7 +377,7 @@
     // The number of spaces before trailing line comments (//-comments). This
     // does not affect trailing block comments (/**/-comments) as those commonly
     // have different usage patterns and a number of special cases.
-    "SpacesBeforeTrailingComments": 2,
+    "SpacesBeforeTrailingComments": 1,
 
     // If true, spaces will be inserted after ‘<’ and before ‘>’ in template
     // argument lists
