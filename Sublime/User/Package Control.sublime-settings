@@ -41,6 +41,8 @@
 		"SideBarEnhancements",
 		"StringEncode",
 		"Sublime Bookmarks",
+		"SublimeLinter",
+		"SublimeLinter-shellcheck",
 		"Superlime",
 		"Sync View Scroll",
 		"SystemVerilog",
