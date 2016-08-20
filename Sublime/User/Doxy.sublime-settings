@@ -1,15 +1,34 @@
 {
-	// Default tabs size in documentation block (last value is repeated if needed).
-	// You can use [ 0 ] to treat tabs as spaces (and disable alignment)
-	// CANNOT BE EMPTY.
+	// Minimum spaces between columns.
 	//
-	// example with value [ 12, 6, 8, 8, 8, 8 ]
-	//    /**
-	//     * @param[in]  a     { parameter_description }
-	//     * 123456789012      12345678...and continue because there is no more tab
-	//     *             123456
-	//     */
-	"preferred_tabs_sizes": [ 12, 6, 8, 8, 8, 8 ],
+	// Rules:
+	//     - First number  is for first column
+	//     - Second number is for second column
+	//     - ...
+	//     - Last number is applied to all next columns
+	//
+	// .. code-block:: none
+	//     :caption: Example with the value '[1, 2]'
+	//
+	//                  +-- At least 1 space here (but according `preferred_tabs_sizes` it's more)
+	//     /**          V    V--- At least 2 spaces here
+	//      * @param[in]  foo       Lorem ipsum dolor sit amet.
+	//      * @param[out] long_bar  Nullam fringilla feugiat pretium. Quisque
+	//      */
+	"min_spaces_between_columns": [ 1, 2 ],
+
+	// Default tabs size in documentation block (last value is repeated if needed).
+	// You can use [ 0 ] to treat tabs as spaces (and disable alignment).
+	//
+	// .. code-block:: none
+	//     :caption: Example with the value '[ 13, 6, 8, 8, 8, 8 ]'
+	//
+	//     /**
+	//      * @param[in]  a     { parameter_description }
+	//      * 123456789012      12345678...and continue because there is no more tab
+	//      *             123456
+	//      */
+	"preferred_tabs_sizes": [ 0 ],
 
 	// Styles for new comments (you should only activate one per language, first is best)
 	"preferred_comments_styles": [
@@ -17,5 +36,113 @@
 			"/**",
 			" *"
 		]
-	]
+	],
+	
+	// Doxygen allows to specify parameters directions (in, out).
+	// Sets this parameter to `true` to discard this information.
+	"doxygen_discard_param_directions": true,
+
+	// Prefix before a paragraph.
+	//
+	// Examples:
+	//     - `"\t"`:     move to next column
+	//     - `"\n"`:     move to a new line
+	//     - `"\n    "`: move to a new line with an indentation
+	//     - `" "`:      add a space
+	//
+	// Currently unaffected commands: `@par`, `@todo`, `@xrefitem`
+	"doxygen_paragraph_prefix": " ",
+
+	// If true, `template <typename T1> void Bar(T1 x);` will not generate a
+	// `@tparam` entry as `T1` appear as type in parameters list.
+	"remove_template_used_as_type": false,
+
+	// Behavior for `@brief`: remove / preserve.
+	"brief_mode": "remove",
+
+	// Used to overload `block_layout_default` values.
+	//
+	// .. warning::
+	//
+	//     The section define commands positionning (and optionaly default value).
+	//     Do NOT try to use it to format command.
+	//
+	// Values can be either:
+	//     - an array of tags for rigid layout
+	//     - an array of dictionaries for context dependent layout
+	//
+	// If value is an array of tags (strings):
+	//     - Tags may be command or blank lines.
+	//     - Doxygen like commands must be prefixed with `@` or `\`
+	//     - Commands arguments are in `the python format() style <https://docs.python.org/3/library/string.html#formatspec>`_
+	//     - In addition of standard format specifiers, some have been added:
+	//         - `doxy_words(start[, end[, step]);` (work as python arrays [start:end:step])
+	//         - `doxy_chars(start[, end[, step]);` (work as python arrays [start:end:step])
+	//         - `doxy_capitalize();`
+	//         - `doxy_upper();`
+	//         - `doxy_lower();`
+	//         - `doxy_a();`          (add `a` or `an` before the word)
+	//         - `doxy_the();`        (add `the` before the word)
+	//         - `doxy_plural();`
+	//         - `doxy_conjugate();`
+	//         - `doxy_undecorate();` (remove prefix: Hungarian notation)
+	//     - Commands arguments may include:
+	//         - documented item information: `name`, `kind`, `nb_params`, `nb_tparams`...
+	//         - data information: `now` or `utc_now` (see example below)
+	//         - path information: `file_base_name`, `file_full_name`, `file_name`, `file_path`
+	//         - project information: `project_base_name`, `project_full_name`, `project_name`, `project_path`
+	//         - context information: `user_name`, `host_name`, `language`
+	//     - Special command `@_brief` may be used to ask for item description without prefix
+	//
+	// If value is a dictionary, it should have 2 keys:
+	//     - `tags`: same format as if it's an array of strings
+	//     - `context`: similar to `sublime text "context" format <http://docs.sublimetext.info/en/latest/reference/key_bindings.html#context-reference>`_
+	//
+	// Each `context` is a list of conditions. Each condition is composed of
+	//     - `key`: Name of the context whose value you want to query.
+	//     - `operator`: Type of test to perform against `key`'s value.
+	//
+	// Possibles values for `key`:
+	//     - `name`: Name of the entity to document
+	//     - `kind`: Kind of the entity to document
+	//         - `function`, `lambda`, `generator`, `constructor`, `destructor`,
+	//         - `class`, `struct`, `union`, `enum`,
+	//         - `var`, `constant`
+	//     - `nb_params`: Number of parameters
+	//     - `nb_tparams`: Number of template parameters
+	//     - `row`: Cursor row
+	//     - `col`: Cursor column
+	//
+	// Possibles values for `operator` (Defaults to `equal`):
+	//     - `equal`
+	//     - `not_equal`
+	//     - `regex_match`: Match against a regular expression (full match).
+	//     - `not_regex_match`
+	//     - `regex_contains`: Match against a regular expression (partial match).
+	//     - `not_regex_contains`
+	//     - `greater_than`
+	//     - `lower_than`
+	"block_layout": {
+		"Doxygen": [
+			{
+				"tags": [
+					"",
+					"@brief",  // or "@_brief" if you prefer auto-brief approach
+					"",
+					// "@details",
+					// "",
+					"@param",
+					"@return",
+					"",
+					"@tparam",
+					"",
+					"@throws",
+					""
+				],
+				"context": [
+					{ "key": "kind", "operator": "not_equal", "operand": "" }
+				]
+			}
+		]
+	}
 }
