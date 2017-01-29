@@ -1644,6 +1644,14 @@
           key="/instance/org.eclipse.egit.ui/decorator_show_staged_icon">
         <value>record</value>
       </detail>
+      <detail
+          key="/instance/org.eclipse.tm.terminal.control/TerminalPrefBufferLines">
+        <value>record</value>
+      </detail>
+      <detail
+          key="/instance/org.eclipse.cdt.dsf.gdb/org.eclipse.cdt.dsf.gdb.consoleBufferLines">
+        <value>record</value>
+      </detail>
     </annotation>
     <setupTask
         xsi:type="setup:CompoundTask"
@@ -2455,6 +2463,14 @@
     </setupTask>
     <setupTask
         xsi:type="setup:CompoundTask"
+        name="org.eclipse.cdt.dsf.gdb">
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.cdt.dsf.gdb/org.eclipse.cdt.dsf.gdb.consoleBufferLines"
+          value="100000"/>
+    </setupTask>
+    <setupTask
+        xsi:type="setup:CompoundTask"
         name="org.eclipse.cdt.ui">
       <setupTask
           xsi:type="setup:PreferenceTask"
@@ -3052,6 +3068,14 @@
           xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.recommenders.completion.rcp/sessionprocessors"
           value="org.eclipse.recommenders.completion.rcp.sessionprocessors.baseRelevance;org.eclipse.recommenders.subwords.rcp.sessionprocessors.subwords;com.codetrails.connect.hippie.rcp.sessionprocessors.constructor;org.eclipse.recommenders.completion.rcp.sessionprocessors.tips;org.eclipse.recommenders.constructors.rcp.sessionprocessors.constructorCompletion;com.codetrails.connect.hippie.rcp.sessionprocessors.call;org.eclipse.recommenders.overrides.rcp.completion.processor;com.codetrails.connect.hippie.rcp.sessionprocessors.override;org.eclipse.recommenders.calls.rcp.sessionprocessors.call;org.eclipse.recommenders.types.rcp.sessionprocessors.types"/>
+    </setupTask>
+    <setupTask
+        xsi:type="setup:CompoundTask"
+        name="org.eclipse.tm.terminal.control">
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.tm.terminal.control/TerminalPrefBufferLines"
+          value="100000"/>
     </setupTask>
     <setupTask
         xsi:type="setup:CompoundTask"
