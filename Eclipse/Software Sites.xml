@@ -3,7 +3,7 @@
    <site url="http://andrei.gmxhome.de/eclipse" selected="true" name="Andrey Loskutov"/>
    <site url="http://dl.bintray.com/jknack/antlr4ide" selected="true" name="ANTLR 4 IDE"/>
    <site url="http://download.eclipse.org/buildship/updates/e45/releases/1.0" selected="true" name="Buildship"/>
-   <site url="http://download.codetrails.com/updates/connect/stable/" selected="true" name="Codetrails Connect Stable Update Site"/>
+   <site url="http://download.codetrails.com/updates/connect/stable/" selected="true" name="Codetrails Connect Stable"/>
    <site url="https://dl.bintray.com/cppcheclipse/p2/updates/" selected="true" name="cppchecklipse"/>
    <site url="http://www.cppstyle.com/mars" selected="true" name="CppStyle"/>
    <site url="http://update.eclemma.org/" selected="true" name="EclEmma"/>
