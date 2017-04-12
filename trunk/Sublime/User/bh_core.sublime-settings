@@ -15,5 +15,8 @@
 	// from the bracket start and end points.
 	// A link will be available allowing the user to click and jump to
 	// the other bracket.
-	"show_offscreen_bracket_popup": true
+	"show_offscreen_bracket_popup": true,
+
+	// Do the opposite of "show_unmatched" for the languages listed below
+	"show_unmatched_exceptions": ["Diff"]
 }
