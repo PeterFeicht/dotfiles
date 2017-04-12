@@ -3,18 +3,25 @@
 	// Set false to disable evaluation after each input
 	"live_mode": false,
 
-	// Focus Change mode evaluates changes every time a view gets the focus
-	// Set false to disable evaluation when changing views
-	"focus_change_mode": true,
+  // Add a special marker on untracked files
+  "show_markers_on_untracked_file": false,
 
-	// Determines whether GitGutter will show informations in the status bar
-	// Set "none" to hide these informations
-	// Set "default" to show in the status bar how many lines have been
-	// inserted or modified and how many regions have been deleted
-	// Set "more" to also show on what branch you are
-	// Set "all" to also show what you are comparing against
-	"show_status": "more",
-
-	// Add a special marker on untracked files
-	"show_markers_on_untracked_file": true
+	// STATUS BAR TEXT TEMPLATE
+	// The array is joined to a single string and passed to jinja2 template
+	// engine to render the status message text. The template can be modified using
+	// jinja2 supported syntax. GitGutter provides the following variables:
+	//   {{repo}}     -- repository name / folder name containing the .git directory
+	//   {{branch}}   -- checked out branch you are working on
+	//   {{compare}}  -- commit/branch/HEAD the file is compared to
+	//   {{state}}    -- One of committed/modified/ignored/untracked
+	//   {{deleted}}  -- number of deleted regions
+	//   {{inserted}} -- number of inserted lines
+	//   {{modified}} -- number of modified lines
+	"status_bar_text": [
+		"In {{repo}} on {{branch}}",
+		" ({{state}})",
+		"{% if inserted != 0 %} {{inserted}}+{% endif %}",
+		"{% if deleted != 0 %} {{deleted}}-{% endif %}",
+		"{% if modified != 0 %} {{modified}}≠{% endif %}"
+	],
 }

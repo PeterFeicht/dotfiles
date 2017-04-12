@@ -8,7 +8,7 @@
 	"bold_folder_labels": false,
 	"caret_style": "blink",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Monokai Extended/Monokai Extended Light.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Extended (SL).tmTheme",
 	"default_line_ending": "unix",
 	"drag_text": false,
 	"highlight_line": true,
