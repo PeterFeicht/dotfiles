@@ -1652,6 +1652,22 @@
           key="/instance/org.eclipse.cdt.dsf.gdb/org.eclipse.cdt.dsf.gdb.consoleBufferLines">
         <value>record</value>
       </detail>
+      <detail
+          key="/instance/org.eclipse.ui.editors/textDragAndDropEnabled">
+        <value>record</value>
+      </detail>
+      <detail
+          key="/instance/org.eclipse.ui.workbench/ColorsAndFontsPreferencePage.selectedElement">
+        <value>ignore</value>
+      </detail>
+      <detail
+          key="/instance/org.eclipse.ui.workbench/ColorsAndFontsPreferencePage.expandedCategories">
+        <value>ignore</value>
+      </detail>
+      <detail
+          key="/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.auto_remove_old_launches">
+        <value>record</value>
+      </detail>
     </annotation>
     <setupTask
         xsi:type="setup:CompoundTask"
@@ -2658,6 +2674,10 @@
           value="false"/>
       <setupTask
           xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.auto_remove_old_launches"
+          value="false"/>
+      <setupTask
+          xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.switch_perspective_on_suspend"
           value="always"/>
       <setupTask
@@ -3136,6 +3156,10 @@
           xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.ui.editors/spellingEnabled"
           value="true"/>
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.ui.editors/textDragAndDropEnabled"
+          value="false"/>
     </setupTask>
     <setupTask
         xsi:type="setup:CompoundTask"
@@ -3160,6 +3184,14 @@
     <setupTask
         xsi:type="setup:CompoundTask"
         name="org.eclipse.ui.workbench">
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.ui.workbench/ColorsAndFontsPreferencePage.expandedCategories"
+          value="REMOVE_PREFERENCE_MARKER"/>
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.ui.workbench/ColorsAndFontsPreferencePage.selectedElement"
+          value="REMOVE_PREFERENCE_MARKER"/>
       <setupTask
           xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.ui.workbench/org.eclipse.ui.commands"
