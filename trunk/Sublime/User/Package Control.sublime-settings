@@ -30,6 +30,8 @@
 		"jQuery",
 		"Keymaps",
 		"Kotlin",
+		"LaTeXTools",
+		"LLVM",
 		"Markdown Extended",
 		"MIPS Syntax",
 		"Monokai Extended",
@@ -56,6 +58,7 @@
 		"Themr",
 		"Vala-TMBundle",
 		"VHDL",
+		"VimModelines",
 		"x86 and x86_64 Assembly"
 	]
 }
