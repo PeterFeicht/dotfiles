@@ -1,12 +1,13 @@
 {
-	"auto_upgrade_frequency": 6,
+	"auto_upgrade": true,
+	"auto_upgrade_frequency": 168,
 	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
-		"ApacheConf.tmLanguage",
+		"ApacheConf",
 		"AutoFileName",
 		"BracketHighlighter",
 		"Clang Format",
