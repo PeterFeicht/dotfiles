@@ -51,7 +51,7 @@
 	"show_line_endings": true,
 	"sidebar_tree_medium": true,
 	"tabs_small": true,
-	"theme": "Nexus.sublime-theme",
+	"theme": "Default.sublime-theme",
 	"trim_automatic_white_space": false,
 	"word_wrap": false
 }
