@@ -50,7 +50,6 @@
 		"SublimeLinter-shellcheck",
 		"Superlime",
 		"Sync View Scroll",
-		"SystemVerilog",
 		"Theme - Cobalt2",
 		"Theme - Nexus",
 		"Theme - Piatto",
@@ -59,6 +58,6 @@
 		"Vala-TMBundle",
 		"VHDL",
 		"VimModelines",
-		"x86 and x86_64 Assembly"
-	]
+		"x86 and x86_64 Assembly",
+	],
 }
