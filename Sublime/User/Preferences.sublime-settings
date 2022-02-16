@@ -68,4 +68,5 @@
 	"theme": "Default.sublime-theme",
 	"trim_automatic_white_space": false,
 	"word_wrap": false,
+	"draw_white_space": ["all", "enclosed_none", "leading_spaces", "leading_mixed", "enclosed_tabs"],
 }
