@@ -1,8 +1,4 @@
 {
-	"Seti_SB_bright": true,
-	"Seti_orange_button": true,
-	"Seti_panel_nrml": true,
-	"Seti_tabs_small": true,
 	"always_prompt_for_file_reload": true,
 	"animation_enabled": false,
 	"bold_folder_labels": false,
@@ -22,13 +18,11 @@
 		"Clojure",
 		"D",
 		"Erlang",
-		"Gnuplot",
 		"Graphviz",
 		"IDL-Syntax",
 		"Lisp",
 		"Lua",
 		"Markdown",
-		"MIPS Syntax",
 		"Objective-C",
 		"OCaml",
 		"Pascal",
@@ -52,7 +46,7 @@
 		"draw_active"
 	],
 	"numix_folder_icons": true,
-	"preview_on_click": false,
+	"preview_on_click": "only_left",
 	"rulers":
 	[
 		80,
@@ -66,7 +60,6 @@
 	"sidebar_tree_medium": true,
 	"tabs_small": true,
 	"theme": "Default.sublime-theme",
-	"trim_automatic_white_space": false,
-	"word_wrap": false,
+	"trim_automatic_white_space": true,
 	"draw_white_space": ["all", "enclosed_none", "leading_spaces", "leading_mixed", "enclosed_tabs"],
 }
