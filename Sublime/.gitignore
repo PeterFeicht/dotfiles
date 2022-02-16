@@ -7,9 +7,11 @@ bz2
 jsonschema
 markupsafe
 mdpopups
+pathlib
 pygments
 pymdownx
 python-jinja2
 python-markdown
 pyyaml
 ssl-linux
+sublime_lib

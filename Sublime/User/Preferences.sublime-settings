@@ -18,19 +18,33 @@
 	[
 		"ActionScript",
 		"AppleScript",
+		"ASP",
 		"Clojure",
 		"D",
 		"Erlang",
+		"Gnuplot",
+		"Graphviz",
+		"IDL-Syntax",
 		"Lisp",
+		"Lua",
 		"Markdown",
+		"MIPS Syntax",
 		"Objective-C",
 		"OCaml",
 		"Pascal",
+		"Perl",
+		"PKGBUILD",
 		"R",
+		"Rails",
+		"RestructuredText",
+		"Ruby",
 		"Rust",
+		"Scala",
 		"SideBarEnhancements",
+		"SQL",
+		"TCL",
 		"Textile",
-		"Vintage"
+		"Vintage",
 	],
 	"indent_guide_options":
 	[
@@ -53,5 +67,5 @@
 	"tabs_small": true,
 	"theme": "Default.sublime-theme",
 	"trim_automatic_white_space": false,
-	"word_wrap": false
+	"word_wrap": false,
 }
